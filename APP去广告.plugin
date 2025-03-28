@@ -3,7 +3,7 @@
 #!author= playGitboy
 #!homepage= https://github.com/playGitboy/loon_plugin
 #!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
-# 
+# 更新 ：20250328
 [URL Rewrite]
 ^https?:\/\/gateway\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject
 ^http?:\/\/adsfilebssdlbig\.tx\.kugou\.com\/ reject
