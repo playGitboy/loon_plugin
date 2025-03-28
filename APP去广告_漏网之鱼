@@ -1,0 +1,13 @@
+#!name= APP去广告_漏网之鱼
+#!desc= 即使装了“APP启动页去广告ultra+”常用APP广告仍有漏网之鱼，发现一个消灭一个吧
+#!author= playGitboy
+#!homepage= https://github.com/playGitboy/loon_plugin
+#!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
+# 
+[URL Rewrite]
+^https?:\/\/gateway\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject
+^http?:\/\/adsfilebssdlbig\.tx\.kugou\.com\/ reject
+
+[host]
+gateway.kugou.com
+adsfilebssdlbig.tx.kugou.com
