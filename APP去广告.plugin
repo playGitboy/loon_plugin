@@ -10,5 +10,7 @@
 ^http?:\/\/adsfilebssdlbig\.tx\.kugou\.com\/ reject-200
 ^http?:\/\/youthimgbssdl\.kugou\.com\/ reject-200
 
+^https:\/\/sapi\.0easy\.com\/yihao01-advert-center\/ reject-200
+^https:\/\/sapi\.0easy\.com\/yihao01-app-api\/app\/advert\/ reject-200
 [MITM]
-hostname= gateway.kugou.com,adsfilebssdlbig.tx.kugou.com,youthimgbssdl.kugou.com,gatewayretry.kugou.com
+hostname= gateway.kugou.com,adsfilebssdlbig.tx.kugou.com,youthimgbssdl.kugou.com,gatewayretry.kugou.com,sapi.0easy.com,
