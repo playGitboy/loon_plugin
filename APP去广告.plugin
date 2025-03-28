@@ -5,8 +5,10 @@
 #!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
 # 更新 ：20250328
 [URL Rewrite]
-^https?:\/\/gateway\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject
-^http?:\/\/adsfilebssdlbig\.tx\.kugou\.com\/ reject
+^https?:\/\/gateway\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject-200
+^http?:\/\/gatewayretry\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject-200
+^http?:\/\/adsfilebssdlbig\.tx\.kugou\.com\/ reject-200
+^http?:\/\/youthimgbssdl\.kugou\.com\/ reject-200
 
 [MITM]
-hostname= gateway.kugou.com, adsfilebssdlbig.tx.kugou.com
+hostname= gateway.kugou.com,adsfilebssdlbig.tx.kugou.com,youthimgbssdl.kugou.com,gatewayretry.kugou.com
