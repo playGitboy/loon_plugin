@@ -8,6 +8,5 @@
 ^https?:\/\/gateway\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject
 ^http?:\/\/adsfilebssdlbig\.tx\.kugou\.com\/ reject
 
-[host]
-gateway.kugou.com
-adsfilebssdlbig.tx.kugou.com
+[MITM]
+hostname= gateway.kugou.com, adsfilebssdlbig.tx.kugou.com
