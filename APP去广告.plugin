@@ -15,4 +15,4 @@
 # 小米音箱 2.4.58
 ^https?:\/\/info\.mina\.xiaoaisound\.com\/popup\/common reject-200
 [MITM]
-hostname= gateway.kugou.com,adsfilebssdlbig.tx.kugou.com,youthimgbssdl.kugou.com,gatewayretry.kugou.com,sapi.0easy.com,info.mina.xiaoaisound.com
+hostname= gateway.kugou.com,adsfilebssdlbig.tx.kugou.com,gatewayretry.kugou.com,sapi.0easy.com,info.mina.xiaoaisound.com
