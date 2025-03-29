@@ -1,9 +1,9 @@
 #!name= APP去广告_漏网之鱼
 #!desc= 即使装了“APP启动页去广告ultra+”常用APP广告仍有漏网之鱼，发现一个消灭一个吧
-#!author= playGitboy
-#!homepage= https://github.com/playGitboy/loon_plugin
+#!author= playGitboy[https://github.com/playGitboy]
+#!homepage= https://apps.apple.com/cn/app/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%88-%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%E5%8C%A0%E5%BF%83%E5%87%BA%E5%93%81/id1480205582,https://apps.apple.com/cn/app/1号社区/id911696139
 #!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
-#!date= 2025-03-28
+#!date= 2025-03-29
 [URL Rewrite]
 # 酷狗概念版 4.1.1
 ^https?:\/\/gateway.*\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject-200
