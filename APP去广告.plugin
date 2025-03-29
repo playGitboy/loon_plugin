@@ -8,7 +8,6 @@
 # 酷狗概念版 4.1.1
 ^https?:\/\/gateway.*\.kugou\.com\/ads\.gateway\/v2\/lite_v_ reject-200
 ^https?:\/\/adsfilebssdlbig\.tx\.kugou\.com\/ reject-200
-#^https?:\/\/youthimgbssdl\.kugou\.com\/ reject-200
 # 1号社区 4.12.6
 ^https?:\/\/sapi\.0easy\.com\/yihao01-advert-center\/ reject-200
 ^https?:\/\/sapi\.0easy\.com\/yihao01-app-api\/app\/advert\/ reject-200
