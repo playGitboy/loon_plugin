@@ -13,5 +13,7 @@
 ^https?:\/\/sapi\.0easy\.com\/yihao01-app-api\/app\/advert\/ reject-200
 # 小米音箱 2.4.58
 ^https?:\/\/info\.mina\.xiaoaisound\.com\/popup\/common reject-200
+# 泡泡射手 7.1
+^https?:\/\api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/ reject-200
 [MITM]
-hostname= gateway.kugou.com,adsfilebssdlbig.tx.kugou.com,gatewayretry.kugou.com,sapi.0easy.com,info.mina.xiaoaisound.com
+hostname= gateway.kugou.com,adsfilebssdlbig.tx.kugou.com,gatewayretry.kugou.com,sapi.0easy.com,info.mina.xiaoaisound.com,api-access.pangolin-sdk-toutiao.com
